@@ -1,0 +1,20 @@
+
+
+
+
+DROP TABLE IF EXISTS TEST01; 
+
+
+CREATE TABLE TEST01 (
+  C1 INT PRIMARY KEY, 
+  C2 CHAR(20) , 
+  C3 CHAR(20) ,
+  C4 CHAR(20) ,
+  C5 CHAR(20) ,
+  C6 CHAR(20) ,
+  C7 CHAR(20) ,
+  C8 CHAR(20) ,
+  C9 INT , 
+  C10 DATE 
+); 
+COMMIT; 
